@@ -1,0 +1,36 @@
+a {
+	color: green;
+}
+
+a[target] {
+	color: red;
+}
+
+#second-div>p:nth-child(odd) {
+	color: blue;
+}
+
+#second-div>p:nth-child(even) {
+	color: red;
+}
+
+#first-div>p {
+	color: black;
+}
+
+
+#first-div>p::after {
+	content: " - NEW ";
+	color: yellow;
+}
+
+p:nth-child(8):hover {
+	cursor: pointer;
+	font-style: italic;
+}
+
+
+
+
+
+
